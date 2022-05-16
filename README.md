@@ -69,8 +69,10 @@ obtained by identifying the optimal mix of properties along contract system dime
 - Rigid versus Upgradeable
 - Monolithic versus Modular
 - Duplication versus Reuse
-- 
+
 Rigid versus Upgradeable¶
+
+
 While multiple resources, including this one, emphasize malleability characteristics such as Killable, Upgradeable or Modifiable patterns there is a 
 fundamental tradeoff between malleability and security.
 
@@ -79,6 +81,8 @@ the smart contract system performs a very limited set of functionality for a pre
 finite-time-frame token-sale contract system.
 
 Monolithic versus Modular¶
+
+
 A monolithic self-contained contract keeps all knowledge locally identifiable and readable. While there are few smart contract systems held in high 
 regard that exist as monoliths, there is an argument to be made for extreme locality of data and flow - for example, in the case of optimizing code 
 review efficiency.
@@ -87,6 +91,8 @@ As with the other tradeoffs considered here, security best practices trend away 
 and trend toward software engineering best practices in the case of more complex perpetual contract systems.
 
 Duplication versus Reuse¶
+
+
 A smart contract system from a software engineering perspective wishes to maximize reuse where reasonable. There are many ways to reuse contract code in
 Solidity. Using proven previously-deployed contracts which you own is generally the safest manner to achieve code reuse.
 
